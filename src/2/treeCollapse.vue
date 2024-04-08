@@ -50,18 +50,18 @@ const toggleItem = () => {
 .collapse-item__title {
   display: flex;
   gap: 5px;
-  transition: all 0.2s;
+  transition: all 0.5s;
   cursor: pointer;
   padding: 5px;
-  border-left: 4px solid transparent;
+  border-left: 2px solid transparent;
 }
 .collapse-item__title:hover {
   background-color: #d4d4d8;
   font-weight: 500;
-  border-color: blue;
+  border-color: rgb(0, 0, 0);
 }
 
 .collapse-wrapper {
-  background-color: #e4e4e7;
+  background-color: #f1dada;
 }
 </style>

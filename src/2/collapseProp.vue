@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import TreeCollapse from "./collapseProp.vue";
+import TreeCollapse from "./treeCollapse.vue";
 import { reactive } from "vue";
 const treeLists = reactive([
   {
